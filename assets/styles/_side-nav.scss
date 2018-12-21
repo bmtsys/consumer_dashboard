@@ -103,7 +103,7 @@
 
 .side-nav__header {
   height: $navbar-height;
-  background: darken($brand-royal,5%);
+  background: #30426a;
   color: #FFF;
   font-size: 24px;
 
@@ -120,7 +120,7 @@
   padding-top: $navbar-height;
   flex: 1;
   list-style: none;
-  background-color: $brand-royal;
+  background-color: #30426a;
   padding: 0;
   margin: 0;
   overflow-x: hidden;
@@ -133,12 +133,12 @@
     font-size: 0.9em;
 
     &:hover{
-      background-color: transparent !important;
+      background-color: #2d3e63 !important;
     }
   }
 
   li.active > a{
-    background-color: lighten($brand-royal,5%);
+    background-color: #2d3e63;
 
 
   }
@@ -150,7 +150,7 @@
     }
 
     &:hover, &:active, &:active{
-      background-color: lighten($brand-royal,5%) !important;
+      background-color: #2d3e63 !important;
     }
     border-radius: 0;
     color: $gray-lighter;
