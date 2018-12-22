@@ -4,21 +4,9 @@
             <ul class="nav navbar-nav navbar-left no-margin">
                 <li>
                     <a>
-                        <strong class="text-success">KONGA {{konga_version}}</strong>
+                        <strong class="text-success">TetraWing 1.0</strong>
                     </a>
                 </li>
-                <li class="hidden-xs">
-                    <a href="https://github.com/pantsel/konga" target="_blank">
-                        <i class="fa fa-github"></i>GitHub
-                    </a>
-                </li>
-
-                <li class="hidden-xs">
-                    <a href="https://github.com/pantsel/konga/issues" target="_blank">
-                        <i class="mdi mdi-18px mdi-bug"></i>Issues
-                    </a>
-                </li>
-
             </ul>
             <ul class="nav navbar-nav navbar-right hidden-xs" style="margin-right: 5px" ng-if="user.hasPermission('connections','read')">
                 <li  data-ng-show="isAuthenticated()" uib-dropdown is-open="isOpen" auto-close="disabled" keyboard-nav>
@@ -51,7 +39,7 @@
                                         </div>
                                     </td>
                                     <td><strong>{{connection.name}}</strong></td>
-                                    <td>v{{connection.kong_version.split("-").join(".")}}</td>
+                                    <td></td>
                                 </tr>
                             </table>
                         </li>
