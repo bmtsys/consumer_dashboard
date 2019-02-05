@@ -1,16 +1,3 @@
-## More than just another GUI to [KONG Admin API](http://getkong.org)    [![Build Status](https://travis-ci.org/pantsel/konga.svg?branch=master)](https://travis-ci.org/pantsel/konga)    [![Gitter chat](https://badges.gitter.im/pantsel-konga/Lobby.png)](https://gitter.im/pantsel-konga/Lobby)
-
-
-[![Dashboard](screenshots/bc3.png)](https://raw.githubusercontent.com/pantsel/konga/master/screenshots/bc2.png)
-
-_Konga is not an official app. No affiliation with [Kong](https://www.konghq.com/)._
-
-
-[Site and working demo here](https://pantsel.github.io/konga/)
-
-> Notice: Upgrade your Kong installations to v0.12.x so you can use Konga to it's full capacity.
-  Starting with Konga 0.11.x, Kong versions prior to 0.12.x are not supported.
-
 ## Summary
 
 - [**Discussions & Support**](#discussions--support)
